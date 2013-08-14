@@ -41,6 +41,7 @@ function pf_safety_groups_page_handler($page) {
 function pf_safety_elgg_river_page_handler($page) {
   gatekeeper();
   return call_user_func('elgg_river_page_handler', $page);
+}
 
 function pf_safety_profile_page_handler($page) {
   gatekeeper();
