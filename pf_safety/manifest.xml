@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+  <name>Polyföreningen safety hacks</name>
+  <author>Richard Levitte</author>
+  <version>0.1</version>
+  <description>We want to make some pages available for logged
+  in users only.  This plugin is a collection of hacks doing
+  just that.
+
+  The currently affected plugins are:
+  * members
+  </description>
+ 
+  <requires>
+    <type>elgg_release</type>
+    <version>1.8</version>
+  </requires>
+
+  <requires>
+    <type>plugin</type>
+    <name>members</name>
+    <version>1.8</version>
+    <comparison>eq</comparison>
+  </requires>
+  <requires>
+    <type>priority</type>
+    <plugin>members</plugin>
+    <priority>after</priority>
+  </requires>
+</plugin_manifest>
