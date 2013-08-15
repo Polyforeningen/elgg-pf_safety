@@ -3,7 +3,8 @@
   <name>Polyföreningen safety hacks</name>
   <author>Richard Levitte</author>
   <version>1.0</version>
-  <license>Apache Licensen v2.0</license>
+  <copyright>(c) Polyföreningen</copyright>
+  <license>Apache License v2.0</license>
   <description>We want to make some pages available for logged
   in users only.  This plugin is a collection of hacks doing
   just that.
